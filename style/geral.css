@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li,
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  --blcak: #0d114f;
+  --white: #fafafa;
+  --red: #ec6e83;
+  --lite-blue: #e0ecff;
+  --blue: #3485ff;
+  --background: #fbfcff;
+  --overlay: #040911;
+  --icons-details: #a5b0c1;
+  --color-flavia: #d48585;
+
+  --gray-dark: #4d5e77;
+  --gray-blue: #a1b2cd;
+  --gray-midium: #d3d9e2;
+  --gray-light: #e5eaf1;
+  /* 1rem = 16px  (user agent) = 100%
+  10px  = 62.5%*/
+
+  font-size: 62.5%; /* 10px = 62.5%*/
+}
+
+body {
+  background: #f0f0f9;
+  font-family: 'poppins', sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+header > .container {
+  width: 80%;
+  margin: 3.5rem auto;
+
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  justify-items: center;
+
+  border-bottom: 0.1rem solid var(--color-flavia);
+}
+.content {
+  width: 80%;
+  margin: 3.5rem auto;
+  margin-bottom: 0;
+}
+.logo {
+  font-size: 3.08rem;
+  font-weight: 700;
+}
+.logo > span {
+  color: var(--color-flavia);
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  margin-left: 1rem;
+  background: var(--color-flavia);
+  /* border: 1rem solid var(--color-flavia); */
+  padding: 0.8rem;
+  color: var(--white);
+  border-radius: 1.2rem;
+}
+a {
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.aniversario {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+}
+
+h1 > span {
+  color: red;
+}
+#piano {
+  background: #d48585;
+}
+.hobes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.hobes > div {
+  flex: 1 1 100px;
+  padding: 2rem;
+  background: var(--color-flavia);
+  margin: 1rem;
+}
+footer {
+  display: flex;
+  background: var(--red);
+  padding: 2rem;
+}
